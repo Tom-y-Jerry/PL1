@@ -7,7 +7,7 @@ public class Calculator {
         if (operation == Operation.MULTIPLY) return multiply(a, b);
         if (operation == Operation.DIVIDE) return divide(a, b);
 
-        throw new IllegalArgumentException("Unknown operation");
+        throw new IllegalArgumentException("Unknown operatiom");
     }
 
 
